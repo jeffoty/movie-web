@@ -9,7 +9,7 @@ export class MovieApiServiceService {
 
   constructor(private http:HttpClient) { }
 
-  baseurl = 'http://api.themoviedb.org/3';
+  baseurl = 'https://api.themoviedb.org/3';
   apiKey = '439e8a1e870ca883607120eee4d94815';
 
   // bannerapi data
